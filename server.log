@@ -1,0 +1,5 @@
+
+> callremind-edgetts-backend@0.0.1 start
+> node server.js
+
+TTS voice service listening on :3000

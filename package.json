@@ -1,0 +1,19 @@
+{
+  "name": "callremind-edgetts-backend",
+  "version": "0.0.1",
+  "description": "Minimal TTS voice service: Edge TTS (MP3) + Kokoro (WAV) over one tiny Node HTTP server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@alexanderolsen/libsamplerate-js": "^2.1.2",
+    "edge-tts-universal": "^1.4.0",
+    "kokoro-js": "^1.2.1",
+    "mpg123-decoder": "^1.0.3"
+  }
+}
